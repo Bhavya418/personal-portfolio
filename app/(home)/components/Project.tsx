@@ -20,7 +20,7 @@ const Project = () => {
             link:"http://localhost:3000",
             tech:[SiNextdotjs,SiReact,SiSupabase,SiTailwindcss],
             cover:"/project-image-1.png",
-            background:"bg-indigo-500"
+            background:"bg-green-500"
 
         }
     ]

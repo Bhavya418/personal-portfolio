@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import Skill from "./components/Skill"
 import Project from "./components/Project";
+import Footer from "./components/Footer";
+
 
 const page = () => {
   return (
@@ -19,6 +21,7 @@ const page = () => {
       <div className="max-w-7xl mx-auto sm:p-5 mt-10">
         <Skill/>
         <Project/>
+        <Footer/>
       </div>
       
     </div>

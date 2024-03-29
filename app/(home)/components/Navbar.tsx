@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import React from 'react'
 import { SiGithub, SiInstagram, SiLinkedin, SiTwitter } from "react-icons/si";
+import { cn } from "@/lib/utils";
+import Image from "next/image";
 
-
-function Navbar() {
+function Navbar({className}:{className?:string}) {
     const social =[
         {
             label:"Github",
@@ -26,11 +27,14 @@ function Navbar() {
             Icon:SiInstagram
         },
     ]
+
   return (
-    <nav className='py-10 flex justify-between'>
+    <nav className={cn('py-10 flex justify-between items-center animate-move-down',className)}>
+      
       <h1 className='text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2'>
-        Bhavya 👨‍💻
+        Bhavya 👨‍💻 
       </h1>
+      
       <div className='flex items-center gap-x-5'>
             {social.map((item,index)=>{
                 const Icon = item.Icon;
