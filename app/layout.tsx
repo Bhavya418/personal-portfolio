@@ -5,7 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	metadataBase: new URL("https://next-supabase-vote.vercel.app/"),
+	metadataBase: new URL("https://personal-portfolio-five-rosy.vercel.app/"),
   icons: {
     icon: '/B.png', // /public path
   },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 		title: "Bhavya Shah",
 		description:
 			"",
-		url: "https://next-supabase-vote.vercel.app/",
+		url: "https://personal-portfolio-five-rosy.vercel.app/",
 		siteName: "bhavya shah",
 		images: "./og.png",
 		type: "website",
